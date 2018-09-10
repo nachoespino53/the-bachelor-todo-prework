@@ -21,7 +21,9 @@ end
 
 def get_contestant_name(data, occupation)
   contestants = contestant_data(data)
-  
+  name = ''
+  contestants.each do |x|
+    if x["occ"]
   
 end
 
