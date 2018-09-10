@@ -23,7 +23,12 @@ def get_contestant_name(data, occupation)
   contestants = contestant_data(data)
   name = ''
   contestants.each do |x|
-    if x["occ"]
+    if x["occupation"] == occupation
+      name = x["name"]
+    end
+  end
+  
+  name
   
 end
 
