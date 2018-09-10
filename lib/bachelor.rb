@@ -55,7 +55,7 @@ def get_occupation(data, hometown)
     end
   end
     
-    array_con.pop
+    array_con.shift
 end
 
 def get_average_age_for_season(data, season)
