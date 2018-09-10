@@ -15,9 +15,13 @@ def get_first_name_of_season_winner(data, season)
   
 end
 
+def contestant_data(data)
+data.values.flatten
+end
+
 def get_contestant_name(data, occupation)
-  name = data.values.map
-  
+  contestants = contestant_data
+  binding.pry
   
 end
 
