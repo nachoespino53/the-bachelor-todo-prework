@@ -53,6 +53,7 @@ def get_occupation(data, hometown)
     if x["hometown"] == hometown
       array_con << x['name']
     end
+  end
     
     array_con.pop
 end
