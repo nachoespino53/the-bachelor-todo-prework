@@ -20,7 +20,7 @@ data.values.flatten
 end
 
 def get_contestant_name(data, occupation)
-  contestants = contestant_data
+  contestants = contestant_data(data)
   binding.pry
   
 end
