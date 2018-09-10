@@ -51,11 +51,11 @@ def get_occupation(data, hometown)
   array_con = []
   contestants.each do |x|
     if x["hometown"] == hometown
-      array_con << x['name']
+      array_con << x['occupation']
     end
   end
     
-    array_con.shift
+    array_con.pop
 end
 
 def get_average_age_for_season(data, season)
